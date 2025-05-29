@@ -6,6 +6,7 @@ janela = tk.Tk()
 janela.title("Main window")
 janela.geometry("500x300")
 janela.configure(bg="white")
+janela.attributes("-topmost", True)
 
 def abrir_horario():
     horario.janela_horario()
